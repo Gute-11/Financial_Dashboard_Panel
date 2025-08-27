@@ -4,11 +4,14 @@ import SideBar from "./components/SideBar";
 function App() {
   return (
     <div className="flex h-screen bg-background">
-      <SideBar />
+      <div className="hidden md:block pt-16">
+        <SideBar />
+      </div>
+
       <div className="flex-1 flex flex-col">
         <NavBar />
 
-        <main className="p-4">
+        <main className="p-4 pt-24">
           <h1 className="text-2xl font-bold text-center">
             Site DashBoard em processo de criação
           </h1>
