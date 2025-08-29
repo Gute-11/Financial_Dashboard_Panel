@@ -6,7 +6,11 @@ function SideBar() {
       </h2>
       <ul className="space-y-8">
         <li>
-          <a href="#" className="hover:text-gray-300 border-l-2 p-2 flex">
+          <a
+            href="#"
+            className="hover:text-white hover:bg-gray-900  bg-green-900 rounded-lg transition-all
+             duration-300 ease-linear cursor-pointer border-l-2 p-2 flex"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -20,7 +24,11 @@ function SideBar() {
           </a>
         </li>
         <li>
-          <a href="#" className="hover:text-gray-300 border-l-2 p-2 flex">
+          <a
+            href="#"
+            className="hover:text-white hover:bg-gray-900  bg-green-900 rounded-lg transition-all
+             duration-300 ease-linear cursor-pointer border-l-2 p-2 flex"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -37,7 +45,11 @@ function SideBar() {
           </a>
         </li>
         <li>
-          <a href="#" className="hover:text-gray-300 border-l-2 p-2 flex">
+          <a
+            href="#"
+            className="hover:text-white hover:bg-gray-900  bg-green-900 rounded-lg transition-all
+             duration-300 ease-linear cursor-pointer border-l-2 p-2 flex"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -57,7 +69,11 @@ function SideBar() {
       <h2 className="text-xl font-semibold pt-24 pb-8">Outros</h2>
       <ul className="space-y-8">
         <li>
-          <a href="#" className="hover:text-gray-300 border-l-2 p-2 flex">
+          <a
+            href="#"
+            className="hover:text-white hover:bg-gray-900  bg-green-900 rounded-lg transition-all
+             duration-300 ease-linear cursor-pointer border-l-2 p-2 flex"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -81,7 +97,11 @@ function SideBar() {
           </a>
         </li>
         <li>
-          <a href="#" className="hover:text-gray-300 border-l-2 p-2 flex">
+          <a
+            href="#"
+            className="hover:text-white hover:bg-gray-900  bg-green-900 rounded-lg transition-all
+             duration-300 ease-linear cursor-pointer border-l-2 p-2 flex"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
