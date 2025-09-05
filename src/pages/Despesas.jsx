@@ -14,12 +14,12 @@ function Receitas() {
         <main className="p-4 pt-24">
           <div className="pt-4">
             <h1 className="text-2xl font-bold text-center">
-              Aba de adição de ganhos em processo de criação!
+              Aba de adição de Despesas em processo de criação!
             </h1>
             <div className="shadow p-2 flex justify-center">
               <button
-                className="px-16 py-4 bg-green-600 text-white rounded
-                transition-all duration-300 ease-linear hover:scale-105"
+                className="px-16 py-4 bg-red-600 text-white rounded
+               transition-all duration-300 ease-linear hover:scale-105"
               >
                 Adicionar Ganho
               </button>

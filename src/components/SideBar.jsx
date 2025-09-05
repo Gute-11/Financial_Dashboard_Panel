@@ -10,8 +10,8 @@ function SideBar() {
         <li>
           <Link to="/">
             <a
-              className="hover:text-white hover:bg-gray-900  bg-green-900 rounded-lg transition-all
-             duration-300 ease-linear cursor-pointer border-l-2 p-2 flex"
+              className="hover:text-blue-400 hover:bg-gray-800  bg-green-900 rounded-lg transition-all
+             duration-300 ease-linear border-l-2 p-2 hover:scale-105 flex"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -29,8 +29,8 @@ function SideBar() {
         <li>
           <Link to="/receitas">
             <a
-              className="hover:text-white hover:bg-gray-900  bg-green-900 rounded-lg transition-all
-             duration-300 ease-linear cursor-pointer border-l-2 p-2 flex"
+              className="hover:text-green-500 hover:bg-gray-800  bg-green-900 rounded-lg transition-all
+             duration-300 ease-linear border-l-2 p-2 hover:scale-105 flex"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -49,24 +49,26 @@ function SideBar() {
           </Link>
         </li>
         <li>
-          <a
-            className="hover:text-white hover:bg-gray-900  bg-green-900 rounded-lg transition-all
-             duration-300 ease-linear cursor-pointer border-l-2 p-2 flex"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="currentColor"
-              className="w-6 inline-block"
+          <Link to="/despesas">
+            <a
+              className="hover:text-red-500 hover:bg-gray-800  bg-green-900 rounded-lg transition-all
+             duration-300 ease-linear border-l-2 p-2 hover:scale-105 flex"
             >
-              <path
-                fill="evenodd"
-                d="M1.72 5.47a.75.75 0 0 1 1.06 0L9 11.69l3.756-3.756a.75.75 0 0 1 .985-.066 12.698 12.698 0 0 1 4.575 6.832l.308 1.149 2.277-3.943a.75.75 0 1 1 1.299.75l-3.182 5.51a.75.75 0 0 1-1.025.275l-5.511-3.181a.75.75 0 0 1 .75-1.3l3.943 2.277-.308-1.149a11.194 11.194 0 0 0-3.528-5.617l-3.809 3.81a.75.75 0 0 1-1.06 0L1.72 6.53a.75.75 0 0 1 0-1.061Z"
-                clip="evenodd"
-              />
-            </svg>
-            Despesas
-          </a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                className="w-6 inline-block"
+              >
+                <path
+                  fill="evenodd"
+                  d="M1.72 5.47a.75.75 0 0 1 1.06 0L9 11.69l3.756-3.756a.75.75 0 0 1 .985-.066 12.698 12.698 0 0 1 4.575 6.832l.308 1.149 2.277-3.943a.75.75 0 1 1 1.299.75l-3.182 5.51a.75.75 0 0 1-1.025.275l-5.511-3.181a.75.75 0 0 1 .75-1.3l3.943 2.277-.308-1.149a11.194 11.194 0 0 0-3.528-5.617l-3.809 3.81a.75.75 0 0 1-1.06 0L1.72 6.53a.75.75 0 0 1 0-1.061Z"
+                  clip="evenodd"
+                />
+              </svg>
+              Despesas
+            </a>
+          </Link>
         </li>
       </ul>
       <h2 className="text-xl font-semibold pt-24 pb-8">Outros</h2>
@@ -75,7 +77,7 @@ function SideBar() {
           <a
             href="#"
             className="hover:text-white hover:bg-gray-900  bg-green-900 rounded-lg transition-all
-             duration-300 ease-linear cursor-pointer border-l-2 p-2 flex"
+             duration-300 ease-linear border-l-2 p-2 flex"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -103,7 +105,7 @@ function SideBar() {
           <a
             href="#"
             className="hover:text-white hover:bg-gray-900  bg-green-900 rounded-lg transition-all
-             duration-300 ease-linear cursor-pointer border-l-2 p-2 flex"
+             duration-300 ease-linear border-l-2 p-2 flex"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
