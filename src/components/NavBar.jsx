@@ -14,7 +14,8 @@ function NavBar() {
             src={fotoPerfil}
             alt="Foto de Perfil"
             className="w-full h-full rounded-full
-          object-cover border-2 cursor-pointer border-gray-300"
+            object-cover border-2 cursor-pointer border-gray-300
+            transition-all duration-300 ease-linear hover:scale-110"
           />
         </div>
       </div>
