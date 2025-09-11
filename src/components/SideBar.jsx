@@ -1,10 +1,26 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 function SideBar() {
+
+  const location = useLocation();
+
+  const getTitle = () => {
+    switch (location.pathname) {
+      case "/":
+        return "Menu Principal";
+      case "/receitas":
+        return "Lucros e Proventos";
+      case "/despesas":
+        return "Custos e Gastos";
+      default:
+        return "Menu Principal";
+    }
+  }
+
   return (
     <div className="w-64 bg-principal text-white h-full p-4 rounded-r-3xl">
       <h2 className="text-xl font-semibold pb-16 pt-4 text-left">
-        Menu Principal
+        {getTitle()}
       </h2>
       <ul className="space-y-8">
         <li>

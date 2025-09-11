@@ -7,6 +7,7 @@ export default {
         principal: "#1b676b",
         navbar: "#bef202",
         background: "#eafde6",
+        errorbg: "#282c34",
       },
     },
   },

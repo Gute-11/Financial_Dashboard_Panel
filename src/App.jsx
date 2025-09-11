@@ -15,7 +15,7 @@ function App() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
             <div
               className="bg-white shadow p-4 rounded-md text-center transition-transform
-            duration-300 hover:scale-105"
+            duration-300 hover:scale-110"
             >
               <h2 className="text-lg font-semibold text-gray-700">Ganhos</h2>
               <p className="text-2xl text-green-500">R$ 250,00</p>
