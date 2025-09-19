@@ -16,19 +16,34 @@ function HomePage() {
             object-cover w-20 h-20 cursor-pointer border-gray-300
             transition-all duration-300 ease-linear hover:scale-110"
         />
-        <a href="">FLEXBOARD</a>
-        <a href="">alguma coisa</a>
-        <a href="">Sobre Nós</a>
-        <button className="bg-green-400 py-2 ml-auto text-white px-6 rounded-md">Conectar</button>
+        <a href="#" className="pr-4">FLEXBOARD</a>
+        <a href="#">Sobre Nós</a>
+        <a href="#">Contato</a>
+        <a href="#">Fale Conosco</a>
+        <button
+          className="bg-green-500 border-green-400 border-2 py-2 ml-auto text-white px-6 rounded-md
+        transition-all duration-300 ease-linear hover:scale-105 focus:outline-none
+        hover:bg-white hover:text-black"
+        >
+          Conectar
+        </button>
         <p>ou</p>
-        <button className="py-2 px-6 rounded-md border-green-400 border-2">Cadastrar</button>
+        <button
+          className="py-2 px-6 rounded-md border-green-400 border-2 transition-all
+        duration-300 ease-linear hover:bg-green-500 hover:scale-105 focus:outline-none
+        hover:text-white"
+        >
+          Cadastrar
+        </button>
       </header>
 
       <div className="pt-28 h-full md:h-screen flex background-pattern">
         <main className="grid grid-cols-1 md:grid-cols-2 gap-4 px-4 py-8">
           <div className="justify-center flex flex-col gap-4 pl-4">
             <h1 className="text-white text-4xl font-bold">
-              FLEXBOARD: Seu Dashboard Financeiro, Muito Mais Flexível
+              <span className="text-black">FLEXBOARD</span>: Seu Dashboard
+              Financeiro, Muito Mais{" "}
+              <span className="text-black">Flexível</span>
             </h1>
             <p className="text-white font-thin">
               Gestão Financeira Simplificada, para Você Focar no que Realmente
@@ -48,7 +63,7 @@ function HomePage() {
             <img
               src={fotoHomePage}
               alt="Foto Home Page"
-              className="object-cover m-auto justify-center h-80 w-80
+              className="object-cover m-auto justify-center h-96 w-96
               rounded-3xl ease-linear"
             />
           </div>

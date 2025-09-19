@@ -7,6 +7,7 @@ import Receitas from "./pages/Receitas.jsx";
 import Despesas from "./pages/Despesas.jsx";
 import ErrorPage from "./pages/ErrorPage.jsx";
 import HomePage from "./pages/HomePage.jsx";
+import Cadastro from "./pages/Cadastro.jsx";
 
 const router = createBrowserRouter([
   {
@@ -23,12 +24,16 @@ const router = createBrowserRouter([
   },
   {
     path: "*",
-    element: <ErrorPage />
+    element: <ErrorPage />,
   },
   {
     path: "/Home",
-    element: <HomePage />
-  }
+    element: <HomePage />,
+  },
+  {
+    path: "/Cadastro",
+    element: <Cadastro />,
+  },
 ]);
 
 createRoot(document.getElementById("root")).render(
