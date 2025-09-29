@@ -14,7 +14,7 @@ function HomePage() {
           alt="Foto Logo"
           className=" rounded-full
             object-cover w-20 h-20 cursor-pointer border-gray-300
-            transition-all duration-300 ease-linear hover:scale-110"
+            transition-all duration-150 ease-linear hover:scale-125"
         />
         <a href="#" className="pr-4">FLEXBOARD</a>
         <a href="#">Sobre Nós</a>
@@ -22,7 +22,7 @@ function HomePage() {
         <a href="#">Fale Conosco</a>
         <button
           className="bg-green-500 border-green-400 border-2 py-2 ml-auto text-white px-6 rounded-md
-        transition-all duration-300 ease-linear hover:scale-105 focus:outline-none
+        transition-all duration-200 ease-linear hover:scale-105 focus:outline-none
         hover:bg-white hover:text-black"
         >
           Conectar
@@ -30,7 +30,7 @@ function HomePage() {
         <p>ou</p>
         <button
           className="py-2 px-6 rounded-md border-green-400 border-2 transition-all
-        duration-300 ease-linear hover:bg-green-500 hover:scale-105 focus:outline-none
+        duration-200 ease-linear hover:bg-green-500 hover:scale-105 focus:outline-none
         hover:text-white"
         >
           Cadastrar
@@ -54,7 +54,8 @@ function HomePage() {
               O FLEXBOARD me deu o controle que eu precisava!&quot; — Gutemberg
               F. M., Cliente Satisfeito
             </p>
-            <button className="mt-4 bg-white text-green-500 py-2 px-6 rounded-lg">
+            <button className="mt-4 bg-white hover:scale-105 duration-150 text-green-500
+            py-2 px-6 rounded-lg hover:bg-slate-100 hover:font-semibold">
               COMEÇAR!
             </button>
           </div>

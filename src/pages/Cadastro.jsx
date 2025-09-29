@@ -1,8 +1,8 @@
 function Cadastro() {
   return (
-    <div className="h-screen w-full bg-slate-300">
+    <div className="h-screen w-full background-pattern">
       <main className="grid grid-cols-2 px-20 py-32">
-        <div className="bg-green-600 items-center justify-center flex h-96 rounded-l-3xl">
+        <div className="bg-green-700 items-center justify-center flex h-96 rounded-l-3xl">
           <h1 className="text-white font-bold">É BOM TE VER DENOVO!</h1>
         </div>
         <div className="bg-white items-center flex justify-center rounded-r-3xl">
@@ -27,8 +27,9 @@ function Cadastro() {
               placeholder="Senha"
             />
             <button
-                className="w-full h-8 bg-green-600 text-white rounded-full
-                transition-all duration-300 ease-linear hover:scale-105 focus:outline-none"
+                className="w-full h-8 bg-green-700 text-white rounded-full
+                transition-all duration-150 ease-linear hover:scale-105 hover:bg-green-500
+                focus:outline-none"
               >
                 Cadastrar
               </button>
