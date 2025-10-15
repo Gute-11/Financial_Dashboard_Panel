@@ -27,7 +27,7 @@ function SideBar() {
           <Link to="/">
             <a
               className="hover:text-blue-400 hover:bg-gray-800  bg-green-900 rounded-lg transition-all
-             duration-300 ease-linear border-l-2 p-2 hover:scale-105 flex"
+             duration-150 ease-linear border-l-2 p-2 hover:scale-105 flex"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +46,7 @@ function SideBar() {
           <Link to="/receitas">
             <a
               className="hover:text-green-500 hover:bg-gray-800  bg-green-900 rounded-lg transition-all
-             duration-300 ease-linear border-l-2 p-2 hover:scale-105 flex"
+             duration-150 ease-linear border-l-2 p-2 hover:scale-105 flex"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -68,7 +68,7 @@ function SideBar() {
           <Link to="/despesas">
             <a
               className="hover:text-red-500 hover:bg-gray-800  bg-green-900 rounded-lg transition-all
-             duration-300 ease-linear border-l-2 p-2 hover:scale-105 flex"
+             duration-150 ease-linear border-l-2 p-2 hover:scale-105 flex"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -92,8 +92,8 @@ function SideBar() {
         <li>
           <a
             href="#"
-            className="hover:text-white hover:bg-gray-900  bg-green-900 rounded-lg transition-all
-             duration-300 ease-linear border-l-2 p-2 flex"
+            className="hover:text-white hover:bg-gray-900 hover:scale-105 bg-green-900 rounded-lg transition-all
+             duration-150 ease-linear border-l-2 p-2 flex"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -120,8 +120,8 @@ function SideBar() {
         <li>
           <a
             href="#"
-            className="hover:text-white hover:bg-gray-900  bg-green-900 rounded-lg transition-all
-             duration-300 ease-linear border-l-2 p-2 flex"
+            className="hover:text-white hover:bg-gray-900 hover:scale-105  bg-green-900 rounded-lg transition-all
+             duration-150 ease-linear border-l-2 p-2 flex"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

@@ -22,20 +22,21 @@ function Receitas() {
               <div className="mb-4">
                 <label className="block mb-1">Descrição:</label>
                 <input className="w-96 shadow border border-gray-300 rounded-lg px-3 py-2
-                focus:ring-2 focus:ring-blue-500 focus:outline-none transition duration-300 ease-in-out" type="text"
+                focus:ring-2 focus:ring-blue-500 focus:outline-none transition duration-300 hover:scale-105 ease-in-out" type="text"
                 placeholder="Digite a descrição"/>
               </div>
 
               <div className="mb-4">
                 <label className="block mb-1">Valor:</label>
                 <input className="border shadow border-gray-300 rounded-lg px-3 py-2
-                focus:ring-2 focus:ring-blue-500 focus:outline-none transition duration-300 ease-in-out" type="number"
+                focus:ring-2 focus:ring-blue-500 focus:outline-none transition duration-300 hover:scale-105 ease-in-out" type="number"
                 placeholder="0"/>
               </div>
 
               <div className="mb-4 items-center gap-4">
                 <label className="block mb-1">Data:</label>
-                <input className="border shadow border-gray-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none transition duration-300 ease-in-out" type="date"/>
+                <input className="border shadow border-gray-300 rounded-lg hover:scale-105 px-4 py-2 focus:ring-2
+                focus:ring-blue-500 focus:outline-none transition duration-300 ease-in-out" type="date"/>
               </div>
 
               <div className="mb-4 items-center gap-4">
@@ -52,7 +53,7 @@ function Receitas() {
               <div className="flex w-full justify-center">
               <button
                 className="px-12 h-16 bg-green-600 text-white rounded
-                transition-all duration-300 ease-linear hover:scale-105 focus:outline-none"
+                transition-all duration-150 ease-linear hover:scale-105 focus:outline-none"
               >
                 Adicionar Ganhos
               </button>

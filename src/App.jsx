@@ -37,12 +37,12 @@ function App() {
           </div>
           <div className="pt-4">
             <h1 className="text-2xl font-bold text-center">
-              Site DashBoard em processo de criação
+              Site DashBoard em processo de criação!
             </h1>
             <div className="shadow p-2 flex justify-center">
               <button
                 className="px-16 py-4 bg-blue-500 hover:bg-blue-700 transition-all
-              duration-300 ease-linear hover:scale-105 text-white rounded"
+              duration-150 ease-linear hover:scale-105 text-white rounded"
               >
                 Em Produção!
               </button>
