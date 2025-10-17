@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Cadastro() {
   return (
     <div className="h-screen w-full background-pattern">
@@ -26,13 +28,15 @@ function Cadastro() {
               type="text"
               placeholder="Senha"
             />
-            <button
+            <Link to="/Menu">
+              <button
                 className="w-full h-8 bg-green-700 text-white rounded-full
                 transition-all duration-150 ease-linear hover:scale-105 hover:bg-green-500
                 focus:outline-none"
               >
                 Cadastrar
               </button>
+            </Link>
           </div>
         </div>
       </main>

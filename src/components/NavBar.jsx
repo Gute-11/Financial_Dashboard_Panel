@@ -15,7 +15,7 @@ function NavBar() {
             alt="Foto de Perfil"
             className="w-full h-full rounded-full
             object-cover border-2 cursor-pointer border-gray-300
-            transition-all duration-300 ease-linear hover:scale-110"
+            transition-all duration-100 ease-linear hover:scale-110"
           />
         </div>
       </div>
