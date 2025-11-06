@@ -17,18 +17,10 @@ function HomePage() {
             object-cover w-20 h-20 cursor-pointer border-gray-300
             transition-all duration-150 ease-linear hover:scale-125"
         />
-        <a href="#" className="pr-4 hover:font-bold">
-          FLEXBOARD
-        </a>
-        <a href="#" className=" hover:font-semibold">
-          Sobre Nós
-        </a>
-        <a href="#" className=" hover:font-semibold">
-          Contato
-        </a>
-        <a href="#" className=" hover:font-semibold">
-          Fale Conosco
-        </a>
+        <a href="#" className="pr-4 hover:font-bold"> FLEXBOARD </a>
+        <a href="#" className=" hover:font-semibold"> Sobre Nós </a>
+        <a href="#" className=" hover:font-semibold"> Contato </a>
+        <a href="#" className=" hover:font-semibold"> Fale Conosco </a>
         <Link to="/Login">
           <button
             className="bg-green-500 border-green-400 border-2 py-2 ml-auto text-white px-6 rounded-md
