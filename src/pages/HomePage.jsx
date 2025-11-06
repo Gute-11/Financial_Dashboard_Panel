@@ -1,5 +1,5 @@
 import fotoLogo from "../images/Logo.png";
-import fotoHomePage from "../images/imagemHomePage.png";
+import fotoHomePage from "../images/ImagemHomePage.png";
 import "../index.css";
 import { Link } from "react-router-dom";
 
