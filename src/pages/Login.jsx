@@ -3,7 +3,22 @@ function Login() {
     <div className="h-screen w-full background-pattern">
       <main className="grid grid-cols-2 px-20 py-32">
         <div className="bg-white items-center flex justify-center rounded-l-3xl">
-          <div className="mb-8 w-full mx-16">
+          <div></div>
+          <div className="mb-8 w-ful mx-16">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth="1.5"
+              stroke="currentColor"
+              className="size-6"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18"
+              />
+            </svg>
             <h1 className="text-center pb-14 font-semibold">
               Bem vindo de Volta!
             </h1>
