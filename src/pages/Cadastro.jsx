@@ -6,13 +6,16 @@ function Cadastro() {
       <main className="grid grid-cols-2 px-20 py-32">
         <div className="bg-green-700 items-center justify-center h-96 rounded-l-3xl flex flex-col gap-6">
           <h1 className="text-white font-bold">SEJA BEM VINDO!</h1>
-          <h1 className="text-white font-bold hover:underline cursor-pointer">
-            Já tenho conta
-          </h1>
+          <Link to="/Login">
+            <h1 className="text-white font-bold hover:underline cursor-pointer">
+              Já tenho conta
+            </h1>
+          </Link>
         </div>
         <div className="bg-white items-center flex justify-center rounded-r-3xl">
           <div className="mb-8 w-full mx-16">
-            <div className="border-gray-300 border-2 flex h-auto w-8 justify-center rounded-full">
+            <div className="border-gray-300 border-2 flex h-auto w-8 justify-center rounded-full
+            hover:scale-125 transition-all duration-150 ease-linear">
               <Link to={"/home"}>
                 <button>
                   <svg
